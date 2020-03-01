@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/c_language/LinearTables/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/c_language/LinearTables/SequenceList/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/c_language/LinearTables/SequenceList/SequenceList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/c_language/LinearTables/SingleLinkList/list.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/c_language/LinearTables/SingleLinkList/listADT.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/c_language/LinearTables/SingleLinkList/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/c_language/StackAndQueue/SequenceStack/CharSqStack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/c_language/StackAndQueue/SequenceStack/IntSqStack.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/c_language/StackAndQueue/SequenceStack/test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/list/CircularLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/list/DoubleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/list/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/list/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/list/SingleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/stack/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/stack/CheckExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/stack/ConvertedExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/stack/LinkedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/stack/StackOfArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/$001_TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/$011_MostWaterContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/$015_ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/$024_SwapNodesInPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/$206_ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/$283_MoveZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/$70_ClimbStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/SortUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/input_100000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/input_int.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/input_million.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typical_problems/ArrangeAndCombination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typical_problems/InputUncertainLengthArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typical_problems/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../../Java/maven_res" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Java/maven" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../Java/maven/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YWqzj9Z9sMYOQ6EhxNN6JMmqR7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/datastructure" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/datastructure" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/leetcode" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="" />
+      <created>1583068961325</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583068961325</updated>
+      <workItem from="1583068962790" duration="1508000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1583070332250">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583070332250" />
+  </component>
+</project>
