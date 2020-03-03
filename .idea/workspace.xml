@@ -1,51 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/c_language/LinearTables/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/c_language/LinearTables/SequenceList/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/c_language/LinearTables/SequenceList/SequenceList.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/c_language/LinearTables/SingleLinkList/list.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/c_language/LinearTables/SingleLinkList/listADT.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/c_language/LinearTables/SingleLinkList/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/c_language/StackAndQueue/SequenceStack/CharSqStack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/c_language/StackAndQueue/SequenceStack/IntSqStack.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/c_language/StackAndQueue/SequenceStack/test.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/list/CircularLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/list/DoubleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/list/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/list/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/list/SingleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/stack/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/stack/CheckExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/stack/ConvertedExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/stack/LinkedStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/stack/StackOfArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$001_TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$011_MostWaterContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$015_ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$024_SwapNodesInPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$206_ReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$283_MoveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$70_ClimbStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/SelectSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/SortUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/input_100000.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/input_int.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/input_million.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/typical_problems/ArrangeAndCombination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/typical_problems/InputUncertainLengthArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/typical_problems/README.md" afterDir="false" />
+    <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/$024_SwapNodesInPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$024_SwapNodesInPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +44,26 @@
       <recent name="$PROJECT_DIR$/src/leetcode" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="$0_Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.$0_Practice" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.$0_Practice" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -107,8 +86,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583068961325</updated>
-      <workItem from="1583068962790" duration="1508000" />
+      <workItem from="1583068962790" duration="1678000" />
+      <workItem from="1583071044880" duration="13000" />
+      <workItem from="1583158331390" duration="4097000" />
+      <workItem from="1583234533639" duration="4473000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1583070709598</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583070709598</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,9 +109,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1583070332250">
+    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1583070709280">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583070332250" />
+    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583070709280" />
+    <state width="1398" height="330" key="GridCell.Tab.0.bottom" timestamp="1583237514002">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="330" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583237514002" />
+    <state width="1398" height="330" key="GridCell.Tab.0.center" timestamp="1583237514000">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="330" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583237514000" />
+    <state width="1398" height="330" key="GridCell.Tab.0.left" timestamp="1583237513999">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="330" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583237513999" />
+    <state width="1398" height="330" key="GridCell.Tab.0.right" timestamp="1583237514001">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="330" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583237514001" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1583070747480">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583070747480" />
   </component>
 </project>

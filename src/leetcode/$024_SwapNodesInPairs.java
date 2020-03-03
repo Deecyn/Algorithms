@@ -15,43 +15,40 @@ public class $024_SwapNodesInPairs {
         }
     }
 
-    public ListNode swapPairs(ListNode head){
-        ListNode pre = new ListNode(0);
-        pre.next = head;
-        ListNode curr = pre;
-        while (curr.next != null && curr.next.next != null){
-            ListNode front = curr.next;
-            ListNode back = curr.next.next;
+    /**
+     * 迭代解法：
+     */
+    public ListNode byIteration(ListNode head){
+        ListNode newNode = new ListNode(0);
+        newNode.next = head;
+        ListNode prevNode = newNode;
+        while (prevNode.next != null && prevNode.next.next != null){
+            ListNode front = prevNode.next;
+            ListNode back = prevNode.next.next;
 
             front.next = back.next;
             back.next = front;
-            curr.next = back;
-            curr = front;
+
+            // 对于链表最前面两个元素，只需修改两个指针；但对于链表中间部分的元素需要修改三个指针；
+            // 即 prevNode.next = back 对于链表中间部分的元素才会有实际意义；
+            // 对于链表中间部分的元素，引用 prevNode 指向的是待交换两个结点的前驱结点；
+            prevNode.next = back;
+            prevNode = front;
         }
-        return pre.next;
+        return newNode.next;
     }
 
     /**
-     * main() 方法，测试用
-     * @param args
+     * 递归解法：
      */
-    public static void main(String[] args) {
-        ListNode node1 = new ListNode(1);
-        ListNode node2 = node1.next = new ListNode(3);
-        ListNode node3 = node2.next = new ListNode(5);
-        ListNode node4 = node3.next = new ListNode(7);
-        ListNode node5 = node4.next = new ListNode(9);
-
-        ListNode newNode = new $024_SwapNodesInPairs().swapPairs(node1);
-        printList(newNode);
-    }
-
-    public static void printList(ListNode head){
-        while (head != null){
-            System.out.println(head.val);
-            head = head.next;
+    public ListNode byRecursion(ListNode head){
+        if (head == null || head.next == null){
+            return head;
         }
+
+        ListNode nextNode = head.next;
+        head.next = byRecursion(nextNode.next);
+        nextNode.next = head;
+        return nextNode;
     }
-
-
 }
