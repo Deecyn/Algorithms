@@ -21,10 +21,14 @@ public class $141_CycleList {
     }
 
     public boolean hasCycle(ListNode head) {
-        return byHashMap(head);
+        return byHashSet(head);
     }
 
-    public boolean byHashMap(ListNode head){
+    /**
+     * 通过检查一个结点此前是否被访问过来判断链表是否为环形链表，
+     * 使用哈希表来存储之前的遍历结果。
+     */
+    public boolean byHashSet(ListNode head){
         Set<ListNode> visitedSet = new HashSet<>();
         while (head != null){
             if (visitedSet.contains(head)){
@@ -37,6 +41,11 @@ public class $141_CycleList {
         return false;
     }
 
+    /**
+     * 使用快、慢双指针遍历：
+     * 若链表中不存在环，则快指针直接先到达链表尾部，此时可以返回 false；
+     * 若链表中存在环，则快指针不停地在环上遍历，最终与慢指针相遇，此时可以返回 true
+     */
     public boolean byDoublePointer(ListNode head){
         if (head == null || head.next == null){
             return false;
