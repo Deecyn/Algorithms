@@ -10,14 +10,14 @@ import java.util.*;
 public class $015_ThreeSum {
 
     public List<List<Integer>> threeSum(int[] nums) {
-        return funA(nums);
+        return byEnumerate(nums);
     }
 
     /**
      * 暴力枚举法，时间复杂度 O(n^3)，容易超时
      * 如何去重？先对内层 list 排序，然后采用 List 集合的 contains() 方法判断是否重复
      */
-    public List<List<Integer>> funA(int[] nums){
+    public List<List<Integer>> byEnumerate(int[] nums){
         List<List<Integer>> results = new ArrayList<>(nums.length / 3);
 
         for (int i = 0; i < nums.length; i++) {
@@ -75,7 +75,7 @@ public class $015_ThreeSum {
      *
      * 参考链接：https://leetcode-cn.com/problems/3sum/solution/3sumpai-xu-shuang-zhi-zhen-yi-dong-by-jyd/
      */
-    public List<List<Integer>> funC(int[] num) {
+    public List<List<Integer>> byDoublePointerWithSort(int[] num) {
         Arrays.sort(num);
         List<List<Integer>> results = new LinkedList<>();
         for (int i = 0; i < num.length-2; i++) {

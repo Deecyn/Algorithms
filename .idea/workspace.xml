@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/typical_problems/RecursionDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/$141_CycleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$141_CycleList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/$011_MostWaterContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$011_MostWaterContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/$015_ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$015_ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +99,8 @@
       <workItem from="1583071044880" duration="13000" />
       <workItem from="1583158331390" duration="4097000" />
       <workItem from="1583234533639" duration="4882000" />
-      <workItem from="1583506134715" duration="2002000" />
+      <workItem from="1583506134715" duration="3040000" />
+      <workItem from="1583557690954" duration="2963000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583070709598</created>
@@ -119,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583507876531</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update 141.环形链表-1">
+      <created>1583509082527</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583509082527</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,10 +142,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="update 141.环形链表-1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1583507876304">
+    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1583562378350">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583507876304" />
+    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583562378350" />
     <state x="144" y="79" key="DiffContextDialog" timestamp="1583247937459">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -155,9 +166,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="330" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583249630659" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1583507879147">
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1583509084174">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583507879147" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583509084174" />
   </component>
 </project>
