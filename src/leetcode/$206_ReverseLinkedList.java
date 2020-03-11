@@ -6,7 +6,7 @@ package leetcode;
  * Description: 第 206 题，反转链表。
  */
 public class $206_ReverseLinkedList {
-    public static class ListNode{
+    private static class ListNode{
         int val;
         ListNode next;
         ListNode(int x){
@@ -19,7 +19,7 @@ public class $206_ReverseLinkedList {
      * @param head 待反转链表头指针
      * @return 反转后链表的新头指针
      */
-    public ListNode reverseList(ListNode head){
+    public ListNode byIteration(ListNode head){
         // 当前结点指向头结点
         ListNode curr = head;
         // 申请新的当前结点，始终位于 curr 结点的前一个位置，初始化前为空
@@ -44,14 +44,14 @@ public class $206_ReverseLinkedList {
      * @param head
      * @return
      */
-    public ListNode reverseList2(ListNode head){
+    public ListNode byRecursion(ListNode head){
         // 递归终止条件：当前为空，或下一个为空
         if (head == null || head.next == null){
             return head;
         }
 
         // 当"递"完成之后，当前结点 curr 指向最后一个结点
-        ListNode curr = reverseList2(head.next);
+        ListNode curr = byRecursion(head.next);
 
         // 这里的 head 是 curr 的前一个结点；若 head 是最后一个结点，则不满足递归终止条件。
         // 进行反转：即从 curr 开始，后继指针向前指，一直向前"归"
@@ -72,7 +72,7 @@ public class $206_ReverseLinkedList {
         ListNode node3 = node2.next = new ListNode(5);
         ListNode node4 = node3.next = new ListNode(7);
 
-        ListNode newNode = new $206_ReverseLinkedList().reverseList(node1);
+        ListNode newNode = new $206_ReverseLinkedList().byIteration(node1);
         printList(newNode);
     }
 
