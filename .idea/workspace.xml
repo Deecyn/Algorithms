@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/$024_SwapNodesInPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$024_SwapNodesInPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/$206_ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$206_ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/$141_CycleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$141_CycleList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/$70_ClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$70_ClimbStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +100,8 @@
       <workItem from="1583234533639" duration="4882000" />
       <workItem from="1583506134715" duration="3040000" />
       <workItem from="1583557690954" duration="3392000" />
-      <workItem from="1583899145305" duration="2073000" />
+      <workItem from="1583899145305" duration="2355000" />
+      <workItem from="1584106160300" duration="3693000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583070709598</created>
@@ -137,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583562418202</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1583901425898</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583901425898</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,10 +157,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1583562418029">
+    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1583901425715">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583562418029" />
+    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583901425715" />
     <state x="144" y="79" key="DiffContextDialog" timestamp="1583247937459">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -173,9 +181,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="330" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583249630659" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1583562420747">
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1583901428052">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583562420747" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583901428052" />
   </component>
 </project>
