@@ -11,7 +11,7 @@ import java.util.Set;
 public class $141_CycleList {
 
 
-    class ListNode {
+    private class ListNode {
       int val;
       ListNode next;
       ListNode(int x) {
