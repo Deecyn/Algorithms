@@ -11,7 +11,7 @@ import java.util.Map;
 public class $001_TwoSum {
 
     public int[] twoSum(int[] nums, int target) {
-        return funA(nums, target);
+        return byEnumerate(nums, target);
     }
 
     /**
@@ -22,7 +22,7 @@ public class $001_TwoSum {
      * 若满足要求的元素在当前元素的后面，虽然这时在 hash 表中无法找到，但在以后的对数组的遍历中，会遍历到后面的那个元素
      * 到那时，因为后面的那个元素与当前元素相匹配，则满足题意。即不会漏掉元素。
      */
-    public int[] funB(int[] nums, int target){
+    public int[] byHashMap(int[] nums, int target){
         Map<Integer, Integer> hashMap = new HashMap<>(nums.length);
         for (int i = 0; i < nums.length; i++) {
             Integer x = target - nums[i];
@@ -38,7 +38,7 @@ public class $001_TwoSum {
     /**
      * 使用双重循环，枚举所有可能的结果，时间复杂度 O(n^2)
      */
-    public int[] funA(int[] nums, int target){
+    public int[] byEnumerate(int[] nums, int target){
         int[] index = new int[2];
 
         for (int i = 0; i < nums.length; i++) {

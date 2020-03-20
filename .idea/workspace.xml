@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/datastructure/stack_queue/QueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/stack/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/stack_queue/ArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/stack/CheckExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/stack_queue/CheckExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/stack/ConvertedExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/stack_queue/ConvertedExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/stack/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/stack_queue/LinkedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/stack/StackOfArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/stack_queue/StackOfArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/$001_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$001_TwoSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +56,7 @@
       <recent name="$PROJECT_DIR$/src/leetcode" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.QueueTest">
     <configuration name="$0_Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.$0_Practice" />
       <module name="Algorithms" />
@@ -63,8 +70,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.stack_queue.QueueTest" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.stack_queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueTest" />
         <item itemvalue="Application.$0_Practice" />
       </list>
     </recent_temporary>
@@ -100,7 +121,9 @@
       <workItem from="1583899145305" duration="2355000" />
       <workItem from="1584106160300" duration="3915000" />
       <workItem from="1584160913119" duration="2832000" />
-      <workItem from="1584282181259" duration="668000" />
+      <workItem from="1584282181259" duration="745000" />
+      <workItem from="1584681506444" duration="696000" />
+      <workItem from="1584685410564" duration="2260000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583070709598</created>
@@ -165,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584282230509</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1584328526456</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584328526456</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,33 +208,37 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1584282230325">
+    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1584328526264">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584282230325" />
+    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584328526264" />
     <state x="144" y="79" key="DiffContextDialog" timestamp="1583247937459">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="144" y="79" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1583247937459" />
-    <state width="1398" height="330" key="GridCell.Tab.0.bottom" timestamp="1583249630659">
+    <state width="1398" height="255" key="GridCell.Tab.0.bottom" timestamp="1584702787914">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="330" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583249630659" />
-    <state width="1398" height="330" key="GridCell.Tab.0.center" timestamp="1583249630658">
+    <state width="1398" height="255" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584702787914" />
+    <state width="1398" height="255" key="GridCell.Tab.0.center" timestamp="1584702787914">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="330" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583249630658" />
-    <state width="1398" height="330" key="GridCell.Tab.0.left" timestamp="1583249630500">
+    <state width="1398" height="255" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584702787914" />
+    <state width="1398" height="255" key="GridCell.Tab.0.left" timestamp="1584702787769">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="330" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583249630500" />
-    <state width="1398" height="330" key="GridCell.Tab.0.right" timestamp="1583249630659">
+    <state width="1398" height="255" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584702787769" />
+    <state width="1398" height="255" key="GridCell.Tab.0.right" timestamp="1584702787914">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="330" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583249630659" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1584282232215">
+    <state width="1398" height="255" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584702787914" />
+    <state x="450" y="200" width="540" height="524" key="StructurePopup" timestamp="1584685753816">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584282232215" />
+    <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1584685753816" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1584328530083">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584328530083" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package datastructure.stack;
+package datastructure.stack_queue;
 
 import java.util.ArrayList;
 import java.util.List;
