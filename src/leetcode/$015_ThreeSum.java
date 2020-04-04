@@ -82,7 +82,7 @@ public class $015_ThreeSum {
             if (num[i] > 0) break;
 
             // 根据 "||" 符号的特性，即：当 i > 0 且 num[i] == num[i - 1] 时，则跳过此元素 nums[i]；
-            // 因为已经将 nums[k - 1] 的所有组合加入到结果集中，本次双指针搜索只会得到重复组合。
+            // 因为已经将 nums[i - 1] 的所有组合加入到结果集中，本次双指针搜索只会得到重复组合。
             if (i == 0 || num[i] != num[i - 1]) {
 
                 int low = i + 1, high = num.length - 1, targetSum = 0 - num[i];

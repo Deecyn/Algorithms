@@ -18,34 +18,36 @@ public class $020_ValidParentheses {
      * 时间复杂度为 O(n)。实际效果很快，LeetCode 超过 100% 的用户。
      */
     public boolean byArraySwitch(String str){
-        if (str.length() == 1) return false;
+        char[] chars = str.toCharArray();
+        char[] parentheses = new char[chars.length];
+        if (chars.length == 1) return false;
 
-        char[] chars = new char[str.length()];
+        // idx 表示将要存储「下一个括号」的位置索引
         int idx = 0;
 
         // 遇到左括号，则放入数组中；
         // 遇到右括号：若数组为空（idx = 0），表明括号不匹配，返回 false；
         //     若不为空，将数组尾端的元素（左括号）取出，与当前右括号相应的左括号进行比较；
         //     若相等，表明与上一个左括号互相匹配，进行下一轮比较。否则返回 false。
-        for (char ch : str.toCharArray()) {
+        for (char ch : chars) {
             switch (ch) {
                 case '(':
                 case '[':
                 case '{':
-                    chars[idx++] = ch;
+                    parentheses[idx++] = ch;
                     break;
                 case ')':
-                    if (idx == 0 || chars[--idx] != '(') {
+                    if (idx == 0 || parentheses[--idx] != '(') {
                         return false;
                     }
                     break;
                 case ']':
-                    if (idx == 0 || chars[--idx] != '[') {
+                    if (idx == 0 || parentheses[--idx] != '[') {
                         return false;
                     }
                     break;
                 case '}':
-                    if (idx == 0 || chars[-idx] != '}') {
+                    if (idx == 0 || parentheses[--idx] != '}') {
                         return false;
                     }
                     break;
