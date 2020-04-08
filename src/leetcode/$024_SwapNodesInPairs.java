@@ -19,9 +19,9 @@ public class $024_SwapNodesInPairs {
      * 迭代解法：
      */
     public ListNode byIteration(ListNode head){
-        ListNode newNode = new ListNode(0);
-        newNode.next = head;
-        ListNode prevNode = newNode;
+        ListNode headNode = new ListNode(0);
+        headNode.next = head;
+        ListNode prevNode = headNode;
         while (prevNode.next != null && prevNode.next.next != null){
             ListNode front = prevNode.next;
             ListNode back = prevNode.next.next;
@@ -35,7 +35,7 @@ public class $024_SwapNodesInPairs {
             prevNode.next = back;
             prevNode = front;
         }
-        return newNode.next;
+        return headNode.next;
     }
 
     /**

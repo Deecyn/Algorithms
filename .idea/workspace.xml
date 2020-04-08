@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/$015_ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$015_ThreeSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/$020_ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$020_ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/$024_SwapNodesInPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$024_SwapNodesInPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/$141_CycleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$141_CycleList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/$70_ClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$70_ClimbStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +140,9 @@
       <workItem from="1584778561732" duration="6155000" />
       <workItem from="1584962741632" duration="9000" />
       <workItem from="1585888255094" duration="6539000" />
-      <workItem from="1585970400107" duration="4925000" />
+      <workItem from="1585970400107" duration="5016000" />
+      <workItem from="1585985402739" duration="9000" />
+      <workItem from="1586247718292" duration="9611000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583070709598</created>
@@ -238,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584788948471</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update.">
+      <created>1585976080310</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1585976080310</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,13 +260,14 @@
     <MESSAGE value="add 环形链表-2." />
     <MESSAGE value="update" />
     <MESSAGE value="add No.20 有效的括号。" />
-    <option name="LAST_COMMIT_MESSAGE" value="add No.20 有效的括号。" />
+    <MESSAGE value="update." />
+    <option name="LAST_COMMIT_MESSAGE" value="update." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1584788948266">
+    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1585976080026">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584788948266" />
+    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585976080026" />
     <state x="144" y="79" key="DiffContextDialog" timestamp="1583247937459">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -308,9 +320,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1584685753816" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1584788951073">
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1585976082541">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584788951073" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1585976082541" />
   </component>
 </project>

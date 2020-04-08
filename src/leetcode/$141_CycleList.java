@@ -46,23 +46,21 @@ public class $141_CycleList {
 
     /**
      * 使用快、慢双指针遍历：
-     * 若链表中不存在环，则快指针直接先到达链表尾部，此时可以返回 false；
-     * 若链表中存在环，则快指针不停地在环上遍历，最终与慢指针相遇，此时可以返回 true。
-     * 时间复杂度 O(n)
+     *   若链表中不存在环，则快指针直接先到达链表尾部，此时可以返回 false；
+     *   若链表中存在环，则快指针不停地在环上遍历，最终与慢指针相遇，此时可以返回 true。
+     * 时间复杂度 O(n)。
      */
     public boolean byDoublePointer(ListNode head){
-        if (head == null || head.next == null){
-            return false;
-        }
+        if (head == null || head.next == null) return false;
 
-        ListNode slow = head;
-        ListNode fast = head.next;
+        ListNode slow = head, fast = head.next;
         while (slow != fast){
             if (fast == null || fast.next == null){
                 return false;
             }
 
             slow = slow.next;
+            // 因为仅需两个结点就能成环，所以快指针一次只能走两步
             fast = fast.next.next;
         }
         return true;

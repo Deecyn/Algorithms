@@ -7,8 +7,7 @@ package leetcode;
  */
 public class $70_ClimbStairs {
     public int climbStairs(int n) {
-//        int[] memo = new int[n + 1];
-//        return funD(0, n, memo);
+//        return byMemoryRecursion(0, n, new int[n + 1]);
 
         return byIterationVar(n);
     }

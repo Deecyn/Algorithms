@@ -22,7 +22,7 @@ public class $020_ValidParentheses {
         char[] parentheses = new char[chars.length];
         if (chars.length == 1) return false;
 
-        // idx 表示将要存储「下一个括号」的位置索引
+        // idx 表示将要存储「下一个左括号」的位置索引
         int idx = 0;
 
         // 遇到左括号，则放入数组中；
@@ -34,9 +34,16 @@ public class $020_ValidParentheses {
                 case '(':
                 case '[':
                 case '{':
+                    // 这里使用 idx++ 有两个目的：
+                    //   1.对数组中索引为 idx 的位置赋值；
+                    //   2.索引位置加 1，下一个左括号存储在后面一个位置
                     parentheses[idx++] = ch;
                     break;
                 case ')':
+                    // 这里使用 --idx 有三个目的：
+                    //   1.因为 idx 表示将要存储「下一个左括号」的位置索引，即数组中当前 idx 索引的位置为空，所以需要减 1 进行比较；
+                    //   2.如果数组末尾的左括号，是有效匹配的，则表示该元素已比较过，相当与「出栈」操作；后续操作会认为此位置是空的；
+                    //   3.如果不是有效匹配的，则返回 false，结束判断。
                     if (idx == 0 || parentheses[--idx] != '(') {
                         return false;
                     }
@@ -102,7 +109,7 @@ public class $020_ValidParentheses {
         for (char ch : str.toCharArray()) {
             if (hashMap.containsKey(ch)) {
                 stack.push(ch);
-            }else if (stack.isEmpty() && !hashMap.containsKey(ch)){
+            }else if (stack.isEmpty()){
                 // 若当前栈为空，但字符为右括号，则返回 false
                 return false;
             }else if (hashMap.get(stack.pop()) != ch){
