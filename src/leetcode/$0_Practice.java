@@ -1,6 +1,5 @@
 package leetcode;
 
-import java.util.*;
 
 /**
  * @author Deecyn
@@ -10,11 +9,22 @@ import java.util.*;
 public class $0_Practice {
 
     private static class ListNode{
-        int val;
+        char val;
         ListNode next;
-        ListNode(int x){
-            val = x;
+        ListNode(char ch){
+            val = ch;
             next = null;
+        }
+    }
+
+    public ListNode swapPairs(ListNode head) {
+        if (head == null || head.next == null){
+            return head;
+        } else {
+            ListNode nextNode = head.next;
+            head.next = swapPairs(nextNode.next);
+            nextNode.next = head;
+            return nextNode;
         }
     }
 
