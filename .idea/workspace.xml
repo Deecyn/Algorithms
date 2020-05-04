@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/$053_MaximumSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" afterDir="false" />
     </list>
@@ -41,7 +42,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/datastructure" />
-    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -143,6 +144,11 @@
       <workItem from="1586362312525" duration="25000" />
       <workItem from="1586404618808" duration="1184000" />
       <workItem from="1586436013261" duration="3608000" />
+      <workItem from="1586531420010" duration="252000" />
+      <workItem from="1586934399705" duration="3323000" />
+      <workItem from="1587311750099" duration="1428000" />
+      <workItem from="1587954520277" duration="411000" />
+      <workItem from="1588474936239" duration="2580000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583070709598</created>
@@ -256,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586321512756</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update.">
+      <created>1586531434016</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1586531434016</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,10 +284,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="update." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1586321512605">
+    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1588606900397">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586321512605" />
+    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588606900397" />
     <state x="144" y="79" key="DiffContextDialog" timestamp="1583247937459">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -319,17 +332,21 @@
     </state>
     <state width="1398" height="340" key="GridCell.Tab.1.right/0.0.1440.820@0.0.1440.820" timestamp="1584772875794" />
     <state width="1398" height="340" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1584796167693" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1585970624284">
+    <state x="221" y="89" key="SettingsEditor" timestamp="1587485316996">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585970624284" />
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587485316996" />
     <state x="450" y="200" width="540" height="524" key="StructurePopup" timestamp="1584685753816">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1584685753816" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1586321514261">
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1586531436393">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586321514261" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586531436393" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588480134978">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1588480134978" />
   </component>
 </project>
