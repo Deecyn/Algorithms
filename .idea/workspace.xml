@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$053_MaximumSubarray.java" afterDir="false" />
+    <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="update.">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/$045_JumpGame2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" afterDir="false" />
     </list>
@@ -149,6 +149,7 @@
       <workItem from="1587311750099" duration="1428000" />
       <workItem from="1587954520277" duration="411000" />
       <workItem from="1588474936239" duration="2580000" />
+      <workItem from="1588606887621" duration="2475000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583070709598</created>
@@ -269,11 +270,29 @@
       <option name="project" value="LOCAL" />
       <updated>1586531434016</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add LeetCode No.53 最大子序和">
+      <created>1588606983234</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1588606983234</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update 141.环形链表-1" />
@@ -281,13 +300,14 @@
     <MESSAGE value="update" />
     <MESSAGE value="add No.20 有效的括号。" />
     <MESSAGE value="update." />
-    <option name="LAST_COMMIT_MESSAGE" value="update." />
+    <MESSAGE value="add LeetCode No.53 最大子序和" />
+    <option name="LAST_COMMIT_MESSAGE" value="add LeetCode No.53 最大子序和" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1588606900397">
+    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1588691746158">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588606900397" />
+    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588691746158" />
     <state x="144" y="79" key="DiffContextDialog" timestamp="1583247937459">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -340,10 +360,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1584685753816" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1586531436393">
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1588606985200">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586531436393" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1588606985200" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588480134978">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
