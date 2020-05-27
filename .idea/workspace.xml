@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="update.">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$146_LRU_Cache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$25_ReverseNodesInGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$287_FindDuplicateNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$560_SubarraySumEqualsK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$69_SqrtX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Demo.java" afterDir="false" />
+    <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/$974_SubarraySumsDivisibleK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/$015_ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$015_ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +191,7 @@
       <workItem from="1590130517194" duration="301000" />
       <workItem from="1590248811867" duration="4397000" />
       <workItem from="1590399341594" duration="8809000" />
-      <workItem from="1590478967097" duration="5818000" />
+      <workItem from="1590478967097" duration="7151000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583070709598</created>
@@ -348,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590399391889</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update.">
+      <created>1590590709296</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1590590709296</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,19 +373,19 @@
     <MESSAGE value="add No.20 有效的括号。" />
     <MESSAGE value="add LeetCode No.53 最大子序和" />
     <MESSAGE value="add LeetCode No.45 跳跃游戏-2" />
-    <MESSAGE value="update." />
     <MESSAGE value="add 单例设计模式。" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 单例设计模式。" />
+    <MESSAGE value="update." />
+    <option name="LAST_COMMIT_MESSAGE" value="update." />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1590408848328">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1590408848328" />
-    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1590399391709">
+    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1590590709100">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590399391709" />
+    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590590709100" />
     <state x="144" y="79" key="DiffContextDialog" timestamp="1583247937459">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -439,10 +438,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1589252708009" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1590399395535">
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1590590711902">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590399395535" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590590711902" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1590250281402">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
