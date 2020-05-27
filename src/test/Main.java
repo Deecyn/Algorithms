@@ -10,14 +10,46 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        if (n == 1) {
-            System.out.println(2);
-        } else {
-            long result = 2L << (n - 1);
-            System.out.println(result);
-        }
-    }
+        Scanner in = new Scanner(System.in);
+        String numStr = in.nextLine();
+        String[] numStrings = numStr.split(",");
+        int[] originNums = new int[numStrings.length];
 
+        int countNegative = 0, count0 = 0, minPositive = 0, maxNegative = Integer.MIN_VALUE;
+        for (int i = 0; i < numStrings.length; i++) {
+            originNums[i] = Integer.parseInt(numStrings[i]);
+            if (originNums[i] < 0) {
+                countNegative++;
+                maxNegative = Math.max(maxNegative, originNums[i]);
+            } else if (originNums[i] > 0) {
+                minPositive = Math.min(minPositive, originNums[i]);
+            } else {
+                count0++;
+            }
+        }
+
+        if (countNegative > 0 && (countNegative % 2 != 0)) {
+            for (int i = 0; i < originNums.length; i++) {
+                if (originNums[i] == maxNegative) {
+                    System.out.println(i);
+                    return;
+                }
+            }
+        } else if (count0 > 0) {
+            for (int i = 0; i < originNums.length; i++) {
+                if (originNums[i] == 0) {
+                    System.out.println(i);
+                    return;
+                }
+            }
+        } else {
+            for (int i = 0; i < originNums.length; i++) {
+                if (originNums[i] == minPositive) {
+                    System.out.println(i);
+                    return;
+                }
+            }
+        }
+
+    }
 }
