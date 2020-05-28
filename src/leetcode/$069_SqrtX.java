@@ -5,7 +5,7 @@ package leetcode;
  * @version 0.14
  * Description:
  */
-public class $69_SqrtX {
+public class $069_SqrtX {
 
     /**
      * 二分查找法

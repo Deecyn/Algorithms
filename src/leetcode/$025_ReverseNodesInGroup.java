@@ -5,7 +5,7 @@ package leetcode;
  * @version 1.0
  * Description:
  */
-public class $25_ReverseNodesInGroup {
+public class $025_ReverseNodesInGroup {
     private static class ListNode{
         int val;
         ListNode next;

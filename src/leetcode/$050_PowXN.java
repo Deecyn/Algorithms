@@ -5,7 +5,7 @@ package leetcode;
  * @version 1.0
  * Description:
  */
-public class $50_PowXN {
+public class $050_PowXN {
 
     public double myPow(double x, int n) {
         if (n == 0) return 1D;

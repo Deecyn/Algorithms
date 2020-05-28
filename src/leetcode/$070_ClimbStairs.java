@@ -5,7 +5,7 @@ package leetcode;
  * @version 1.0
  * Description: 70 爬楼梯
  */
-public class $70_ClimbStairs {
+public class $070_ClimbStairs {
     public int climbStairs(int n) {
 //        return byMemoryRecursion(0, n, new int[n + 1]);
 
