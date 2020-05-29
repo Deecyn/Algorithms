@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$394_DecodeString.java" afterDir="false" />
+    <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/$121_BuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/$198_HouseRobber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/$25_ReverseNodesInGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$025_ReverseNodesInGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/$50_PowXN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$050_PowXN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/$69_SqrtX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$069_SqrtX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/$70_ClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$070_ClimbStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +195,8 @@
       <workItem from="1590399341594" duration="8809000" />
       <workItem from="1590478967097" duration="7238000" />
       <workItem from="1590596955886" duration="1469000" />
-      <workItem from="1590660601941" duration="2019000" />
+      <workItem from="1590660601941" duration="2439000" />
+      <workItem from="1590764267427" duration="1012000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583070709598</created>
@@ -361,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590592491492</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="update">
+      <created>1590663010131</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1590663010131</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,24 +388,24 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update 141.环形链表-1" />
     <MESSAGE value="add 环形链表-2." />
-    <MESSAGE value="update" />
     <MESSAGE value="add No.20 有效的括号。" />
     <MESSAGE value="add LeetCode No.53 最大子序和" />
     <MESSAGE value="add LeetCode No.45 跳跃游戏-2" />
     <MESSAGE value="add 单例设计模式。" />
     <MESSAGE value="update." />
     <MESSAGE value="add LeetCode No.974，和可被 K 整除的子数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="add LeetCode No.974，和可被 K 整除的子数组" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1590408848328">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1590408848328" />
-    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1590592491325">
+    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1590663009898">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590592491325" />
+    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590663009898" />
     <state x="144" y="79" key="DiffContextDialog" timestamp="1583247937459">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -453,10 +458,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1589252708009" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1590592493296">
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1590663011808">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590592493296" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590663011808" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1590250281402">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
