@@ -1,10 +1,7 @@
 package leetcode;
 
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author Deecyn
@@ -13,5 +10,32 @@ import java.util.List;
  */
 public class $0_Practice {
 
+    public class ListNode {
+         int val;
+         ListNode next;
+         ListNode(int x) { val = x; }
+    }
 
+    public boolean isValid(String s) {
+        if (s == null || s.length() == 1) return false;
+        if (s.isEmpty()) return true;
+
+        LinkedList<Character> stack = new LinkedList<>();
+        for (char ch : s.toCharArray()) {
+            if (ch == '(') {
+                stack.push(')');
+            } else if (ch == '[') {
+                stack.push(']');
+            } else if (ch == '{') {
+                stack.push('}');
+            } else if (stack.isEmpty() || stack.pop() != ch) {
+                return false;
+            }
+        }
+        return stack.isEmpty();
+    }
+
+    public static void main(String[] args) {
+
+    }
 }
