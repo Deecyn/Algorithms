@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$1431_KidsWithGreatestCandies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sword_means_offer/$064_SumOfN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,6 +199,8 @@
       <workItem from="1590925261751" duration="1623000" />
       <workItem from="1590927485591" duration="2531000" />
       <workItem from="1590977280645" duration="710000" />
+      <workItem from="1590993768605" duration="111000" />
+      <workItem from="1591104889663" duration="1401000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583070709598</created>
@@ -382,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590930120174</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="六一儿童节，添加 LeetCode No.1431 题，拥有最多糖果的孩子。">
+      <created>1590993845601</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1590993845601</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,17 +422,18 @@
     <MESSAGE value="update" />
     <MESSAGE value="add LeetCode 121，198" />
     <MESSAGE value="add LeetCode No.84 和 No.101" />
-    <option name="LAST_COMMIT_MESSAGE" value="add LeetCode No.84 和 No.101" />
+    <MESSAGE value="六一儿童节，添加 LeetCode No.1431 题，拥有最多糖果的孩子。" />
+    <option name="LAST_COMMIT_MESSAGE" value="六一儿童节，添加 LeetCode No.1431 题，拥有最多糖果的孩子。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1590408848328">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1590408848328" />
-    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1590930119991">
+    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1590993845415">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590930119991" />
+    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590993845415" />
     <state x="144" y="79" key="DiffContextDialog" timestamp="1583247937459">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -476,10 +486,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1589252708009" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1590930654533">
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1590993847321">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590930654533" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590993847321" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1590250281402">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
