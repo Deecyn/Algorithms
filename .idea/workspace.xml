@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/leetcode/$054_SpiralMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$238_ProductArrayExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$837_New_21_Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sword_means_offer/$029_SpiralPrintMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Demo.java" afterDir="false" />
     </list>
@@ -206,7 +205,7 @@
       <workItem from="1591104889663" duration="1401000" />
       <workItem from="1591193235929" duration="145000" />
       <workItem from="1591236394058" duration="1241000" />
-      <workItem from="1591322989843" duration="1072000" />
+      <workItem from="1591322989843" duration="4504000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583070709598</created>
@@ -404,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591193294276</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add.">
+      <created>1591365313555</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1591365313555</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,17 +443,18 @@
     <MESSAGE value="add LeetCode No.84 和 No.101" />
     <MESSAGE value="六一儿童节，添加 LeetCode No.1431 题，拥有最多糖果的孩子。" />
     <MESSAGE value="添加剑指offer第64题，求前n项和。" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加剑指offer第64题，求前n项和。" />
+    <MESSAGE value="add." />
+    <option name="LAST_COMMIT_MESSAGE" value="add." />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1590408848328">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1590408848328" />
-    <state x="518" y="61" key="CommitChangelistDialog2" timestamp="1591193294122">
+    <state x="518" y="61" key="CommitChangelistDialog2" timestamp="1591365313321">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="518" y="61" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591193294122" />
+    <state x="518" y="61" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591365313321" />
     <state x="144" y="79" key="DiffContextDialog" timestamp="1583247937459">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -500,10 +507,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1589252708009" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1591193295871">
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1591365315526">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591193295871" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591365315526" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1590250281402">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
