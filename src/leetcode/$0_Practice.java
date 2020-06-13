@@ -16,23 +16,46 @@ public class $0_Practice {
          ListNode(int x) { val = x; }
     }
 
-    public boolean isValid(String s) {
-        if (s == null || s.length() == 1) return false;
-        if (s.isEmpty()) return true;
+    public int climbStairs(int n) {
+        if (n < 3) return n;
 
-        LinkedList<Character> stack = new LinkedList<>();
-        for (char ch : s.toCharArray()) {
-            if (ch == '(') {
-                stack.push(')');
-            } else if (ch == '[') {
-                stack.push(']');
-            } else if (ch == '{') {
-                stack.push('}');
-            } else if (stack.isEmpty() || stack.pop() != ch) {
-                return false;
-            }
+        int[] results = new int[n + 1];
+        results[1] = 1;
+        results[2] = 2;
+        for (int i = 3; i <= n; i++) {
+            results[i] = results[i - 1] + results[i - 2];
         }
-        return stack.isEmpty();
+
+        return results[n];
+    }
+
+    public List<List<Integer>> threeSum(int[] nums) {
+        List<List<Integer>> results = new ArrayList<>(nums.length / 3);
+
+        Arrays.sort(nums);
+        for (int i = 0; i < nums.length - 2; i++) {
+            if (nums[i] > 0) break;
+
+            if (i == 0 || nums[i] != nums[i - 1]) {
+                int low = i + 1, high = nums.length - 1, targetSum = 0 - nums[i];
+
+                while (low < high) {
+                    if (nums[low] + nums[high] == targetSum) {
+                        results.add(Arrays.asList(nums[i], nums[low], nums[high]));
+
+                        while (low < high && nums[low] == nums[++low]);
+                        while (low < high && nums[high] == nums[--high]);
+                    } else if (nums[low] + nums[high] < targetSum) {
+                        low++;
+                    } else {
+                        high--;
+                    }
+                }
+            }
+
+        }
+
+        return results;
     }
 
     public static void main(String[] args) {
