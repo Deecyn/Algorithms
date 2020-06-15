@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sword_means_offer/$046_TranslateNumToString.java" afterDir="false" />
+    <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="添加 LeetCode No.09 回文数。">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/$1300_MutatedArrayFindBestValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -209,7 +208,8 @@
       <workItem from="1591628984512" duration="4416000" />
       <workItem from="1591802473405" duration="2810000" />
       <workItem from="1591883078314" duration="441000" />
-      <workItem from="1591970708396" duration="1333000" />
+      <workItem from="1591970708396" duration="1574000" />
+      <workItem from="1592142850043" duration="3678000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583070709598</created>
@@ -435,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591805513053</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="update.">
+      <created>1592058497854</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1592058497854</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +468,6 @@
     <MESSAGE value="add LeetCode No.53 最大子序和" />
     <MESSAGE value="add LeetCode No.45 跳跃游戏-2" />
     <MESSAGE value="add 单例设计模式。" />
-    <MESSAGE value="update." />
     <MESSAGE value="add LeetCode No.974，和可被 K 整除的子数组" />
     <MESSAGE value="update" />
     <MESSAGE value="add LeetCode 121，198" />
@@ -472,17 +478,18 @@
     <MESSAGE value="添加 LeetCode 螺旋打印矩阵" />
     <MESSAGE value="添加 LeetCode No.990 等式方程的可满足性。" />
     <MESSAGE value="添加 LeetCode No.09 回文数。" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 LeetCode No.09 回文数。" />
+    <MESSAGE value="update." />
+    <option name="LAST_COMMIT_MESSAGE" value="update." />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1590408848328">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1590408848328" />
-    <state x="518" y="61" key="CommitChangelistDialog2" timestamp="1592058464738">
+    <state x="518" y="61" key="CommitChangelistDialog2" timestamp="1592058497578">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="518" y="61" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592058464738" />
+    <state x="518" y="61" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592058497578" />
     <state width="1398" height="154" key="GridCell.Tab.0.bottom" timestamp="1591680494272">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -531,10 +538,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1589252708009" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1591805515110">
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1592058504269">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591805515110" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592058504269" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1591630795728">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
