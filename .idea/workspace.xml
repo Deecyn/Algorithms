@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="添加 LeetCode No.09 回文数。">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$1300_MutatedArrayFindBestValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/$014_LongestCommonPrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Demo.java" afterDir="false" />
     </list>
@@ -210,6 +210,7 @@
       <workItem from="1591883078314" duration="441000" />
       <workItem from="1591970708396" duration="1574000" />
       <workItem from="1592142850043" duration="3678000" />
+      <workItem from="1592229344467" duration="2048000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583070709598</created>
@@ -442,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592058497854</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="添加 LeetCode No.1300 。">
+      <created>1592229437672</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1592229437672</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,17 +487,18 @@
     <MESSAGE value="添加 LeetCode No.990 等式方程的可满足性。" />
     <MESSAGE value="添加 LeetCode No.09 回文数。" />
     <MESSAGE value="update." />
-    <option name="LAST_COMMIT_MESSAGE" value="update." />
+    <MESSAGE value="添加 LeetCode No.1300 。" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 LeetCode No.1300 。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1590408848328">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1590408848328" />
-    <state x="518" y="61" key="CommitChangelistDialog2" timestamp="1592058497578">
+    <state x="518" y="61" key="CommitChangelistDialog2" timestamp="1592229437516">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="518" y="61" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592058497578" />
+    <state x="518" y="61" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592229437516" />
     <state width="1398" height="154" key="GridCell.Tab.0.bottom" timestamp="1591680494272">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -538,10 +547,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1589252708009" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1592058504269">
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1592229440106">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592058504269" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592229440106" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1591630795728">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
