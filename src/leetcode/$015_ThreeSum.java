@@ -20,7 +20,7 @@ public class $015_ThreeSum {
 
     /**
      * 暴力枚举法，时间复杂度 O(n^3)，容易超时
-     * 如何去重？先对内层 list 排序，然后采用 List 集合的 contains() 方法判断是否重复
+     * 如何去重？先对内层 deecyn.list 排序，然后采用 List 集合的 contains() 方法判断是否重复
      */
     public List<List<Integer>> byEnumerate(int[] nums){
         List<List<Integer>> results = new ArrayList<>(nums.length / 3);

@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="添加 LeetCode No.09 回文数。">
-      <change afterPath="$PROJECT_DIR$/src/array/LC01_TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$041_FirstMissingPositive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$1028_RecoverTreeFromPreorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$124_BinaryTreeMaxpathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$125_ValidPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$139_WordBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/$209_MinSubArrayLen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/list/LC019_RemoveNodeNthFromEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/list/LC024_SwapNodesInPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/list/LC206_ReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/list/LC237_DeleteNode.java" afterDir="false" />
+    <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/deecyn/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deecyn/recursion/LC022_GenerateParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deecyn/recursion/LC070_ClimbStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deecyn/stack_queue/LC225_ImplementStackWithQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deecyn/stack_queue/LC232_ImplementQueueWithStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/LC094_BinaryTreeInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/LC144_BinaryTreePreorderTraversa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/LC590_NtreePostorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/structure/BinaryTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/structure/NTreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$0_Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/LC01_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/array/LC01_TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_patterns/singleton/DCLSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/design_patterns/singleton/DCLSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_patterns/singleton/EnumSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/design_patterns/singleton/EnumSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_patterns/singleton/HungrySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/design_patterns/singleton/HungrySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_patterns/singleton/LazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/design_patterns/singleton/LazySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_patterns/singleton/StaticNestedSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/design_patterns/singleton/StaticNestedSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/$015_ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$015_ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/$070_ClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/dynamic_programming/LC070_ClimbStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/LC019_RemoveNodeNthFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/list/LC019_RemoveNodeNthFromEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/LC024_SwapNodesInPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/list/LC024_SwapNodesInPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/LC206_ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/list/LC206_ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/LC237_DeleteNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/list/LC237_DeleteNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +57,6 @@
   <component name="ProjectId" id="1YWqzj9Z9sMYOQ6EhxNN6JMmqR7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -54,35 +65,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/datastructure" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="deecyn.dynamic_programming" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/datastructure" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.$139_WordBreak">
-    <configuration name="$069_SqrtX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.$069_SqrtX" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Demo">
     <configuration name="$0_Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.$0_Practice" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="deecyn.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,7 +96,7 @@
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="deecyn.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,7 +109,7 @@
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="deecyn.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,13 +130,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.$139_WordBreak" />
         <item itemvalue="Application.$0_Practice" />
         <item itemvalue="Application.$1014_BestSightseeingPair" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.$069_SqrtX" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +248,13 @@
       <workItem from="1593346968748" duration="1691000" />
       <workItem from="1593404648772" duration="605000" />
       <workItem from="1594393603887" duration="1625000" />
-      <workItem from="1596707687305" duration="7398000" />
+      <workItem from="1596707687305" duration="8210000" />
+      <workItem from="1596860717070" duration="6580000" />
+      <workItem from="1597670010900" duration="1732000" />
+      <workItem from="1597996639352" duration="292000" />
+      <workItem from="1598148219145" duration="148000" />
+      <workItem from="1598543098696" duration="2921000" />
+      <workItem from="1598678640869" duration="5976000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583070709598</created>
@@ -488,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592493537343</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="update">
+      <created>1596722505957</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1596722505957</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +542,6 @@
     <MESSAGE value="add LeetCode No.45 跳跃游戏-2" />
     <MESSAGE value="add 单例设计模式。" />
     <MESSAGE value="add LeetCode No.974，和可被 K 整除的子数组" />
-    <MESSAGE value="update" />
     <MESSAGE value="add LeetCode 121，198" />
     <MESSAGE value="add LeetCode No.84 和 No.101" />
     <MESSAGE value="六一儿童节，添加 LeetCode No.1431 题，拥有最多糖果的孩子。" />
@@ -528,37 +554,35 @@
     <MESSAGE value="添加 LeetCode No.1300 。" />
     <MESSAGE value="添加 LeetCode No.14 。" />
     <MESSAGE value="添加 LeetCode No.1014 。" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 LeetCode No.1014 。" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1590408848328">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1598543184122">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1590408848328" />
-    <state x="518" y="61" key="CommitChangelistDialog2" timestamp="1592493537155">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1598543184122" />
+    <state x="518" y="61" key="CommitChangelistDialog2" timestamp="1596725457058">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="518" y="61" key="CommitChangelistDialog2/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1596725457058" />
     <state x="518" y="61" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592493537155" />
-    <state width="1398" height="352" key="GridCell.Tab.0.bottom" timestamp="1593101736868">
+    <state width="1398" height="384" key="GridCell.Tab.0.bottom" timestamp="1597116525236">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="340" key="GridCell.Tab.0.bottom/0.0.1440.820@0.0.1440.820" timestamp="1589889883105" />
-    <state width="1398" height="352" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593101736868" />
-    <state width="1398" height="352" key="GridCell.Tab.0.center" timestamp="1593101736866">
+    <state width="1398" height="384" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597116525236" />
+    <state width="1398" height="384" key="GridCell.Tab.0.center" timestamp="1597116525229">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="340" key="GridCell.Tab.0.center/0.0.1440.820@0.0.1440.820" timestamp="1589889883104" />
-    <state width="1398" height="352" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593101736866" />
-    <state width="1398" height="352" key="GridCell.Tab.0.left" timestamp="1593101736866">
+    <state width="1398" height="384" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1597116525229" />
+    <state width="1398" height="384" key="GridCell.Tab.0.left" timestamp="1597116525048">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="340" key="GridCell.Tab.0.left/0.0.1440.820@0.0.1440.820" timestamp="1589889883103" />
-    <state width="1398" height="352" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593101736866" />
-    <state width="1398" height="352" key="GridCell.Tab.0.right" timestamp="1593101736867">
+    <state width="1398" height="384" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1597116525048" />
+    <state width="1398" height="384" key="GridCell.Tab.0.right" timestamp="1597116525235">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="340" key="GridCell.Tab.0.right/0.0.1440.820@0.0.1440.820" timestamp="1589889883104" />
-    <state width="1398" height="352" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593101736867" />
+    <state width="1398" height="384" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1597116525235" />
     <state width="1398" height="352" key="GridCell.Tab.1.bottom" timestamp="1593101736870">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -575,19 +599,20 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="352" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1593101736869" />
-    <state x="236" y="73" key="SettingsEditor" timestamp="1596716755446">
+    <state x="236" y="73" key="SettingsEditor" timestamp="1597730543935">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="236" y="73" key="SettingsEditor/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1596716755446" />
-    <state x="236" y="73" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590927551907" />
-    <state x="450" y="200" width="540" height="524" key="StructurePopup" timestamp="1593093938411">
+    <state x="236" y="73" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1597730543935" />
+    <state x="450" y="200" width="540" height="524" key="StructurePopup" timestamp="1598587632798">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.820@0.0.1440.820" timestamp="1593093910993" />
-    <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1593093938411" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1592493539006">
+    <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1598587632798" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1596725464015">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1596725464015" />
     <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592493539006" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1596717165002">
       <screen x="0" y="0" width="1440" height="900" />

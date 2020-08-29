@@ -1,4 +1,4 @@
-package design_patterns.singleton;
+package deecyn.design_patterns.singleton;
 
 /**
  * @author Deecyn

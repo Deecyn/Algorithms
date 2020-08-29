@@ -1,4 +1,4 @@
-package list;
+package deecyn.list;
 
 /**
  * @author Deecyn
