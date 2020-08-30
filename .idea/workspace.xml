@@ -1,33 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/deecyn/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deecyn/recursion/LC022_GenerateParenthesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deecyn/recursion/LC070_ClimbStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deecyn/stack_queue/LC225_ImplementStackWithQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deecyn/stack_queue/LC232_ImplementQueueWithStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/LC094_BinaryTreeInorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/LC144_BinaryTreePreorderTraversa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/LC590_NtreePostorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/structure/BinaryTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/structure/NTreeNode.java" afterDir="false" />
+    <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/LC098_ValidateBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/LC226_InvertBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/LC01_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/array/LC01_TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_patterns/singleton/DCLSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/design_patterns/singleton/DCLSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_patterns/singleton/EnumSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/design_patterns/singleton/EnumSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_patterns/singleton/HungrySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/design_patterns/singleton/HungrySingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_patterns/singleton/LazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/design_patterns/singleton/LazySingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_patterns/singleton/StaticNestedSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/design_patterns/singleton/StaticNestedSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/$015_ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/$015_ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/$070_ClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/dynamic_programming/LC070_ClimbStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/LC019_RemoveNodeNthFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/list/LC019_RemoveNodeNthFromEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/LC024_SwapNodesInPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/list/LC024_SwapNodesInPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/LC206_ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/list/LC206_ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/LC237_DeleteNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/list/LC237_DeleteNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deecyn/tree/LC094_BinaryTreeInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/tree/LC094_BinaryTreeInorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deecyn/tree/structure/BinaryTreeNode.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +49,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="deecyn.tree" />
       <recent name="deecyn.dynamic_programming" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -255,6 +236,8 @@
       <workItem from="1598148219145" duration="148000" />
       <workItem from="1598543098696" duration="2921000" />
       <workItem from="1598678640869" duration="5976000" />
+      <workItem from="1598715715872" duration="132000" />
+      <workItem from="1598754971874" duration="3355000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583070709598</created>
@@ -515,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596722505957</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="update.">
+      <created>1598715756418</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1598715756418</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,23 +540,27 @@
     <MESSAGE value="添加 LeetCode 螺旋打印矩阵" />
     <MESSAGE value="添加 LeetCode No.990 等式方程的可满足性。" />
     <MESSAGE value="添加 LeetCode No.09 回文数。" />
-    <MESSAGE value="update." />
     <MESSAGE value="添加 LeetCode No.1300 。" />
     <MESSAGE value="添加 LeetCode No.14 。" />
     <MESSAGE value="添加 LeetCode No.1014 。" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update." />
+    <option name="LAST_COMMIT_MESSAGE" value="update." />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1598543184122">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1598543184122" />
-    <state x="518" y="61" key="CommitChangelistDialog2" timestamp="1596725457058">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598756664165">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1598756664165" />
+    <state x="15" y="61" key="CommitChangelistDialog2" timestamp="1598715755982">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="518" y="61" key="CommitChangelistDialog2/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1596725457058" />
-    <state x="518" y="61" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592493537155" />
+    <state x="15" y="61" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1598715755982" />
     <state width="1398" height="384" key="GridCell.Tab.0.bottom" timestamp="1597116525236">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -604,16 +598,16 @@
     </state>
     <state x="236" y="73" key="SettingsEditor/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1596716755446" />
     <state x="236" y="73" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1597730543935" />
-    <state x="450" y="200" width="540" height="524" key="StructurePopup" timestamp="1598587632798">
+    <state x="450" y="200" width="540" height="524" key="StructurePopup" timestamp="1598757099957">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.820@0.0.1440.820" timestamp="1593093910993" />
-    <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1598587632798" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1596725464015">
+    <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1598757099957" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1598715759996">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="178" key="Vcs.Push.Dialog.v2/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1596725464015" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592493539006" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1598715759996" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1596717165002">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

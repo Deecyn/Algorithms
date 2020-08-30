@@ -1,7 +1,5 @@
 package deecyn.tree;
 
-import deecyn.tree.structure.BinaryTreeNode;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,7 +28,7 @@ public class LC094_BinaryTreeInorderTraversal {
      * 二叉树中序遍历的递归写法
      */
     List<Integer> result = new ArrayList<Integer>();
-    public List<Integer> inorderTraversal(BinaryTreeNode root) {
+    public List<Integer> inorderTraversal(TreeNode root) {
         if (root != null){
             inorderTraversal(root.left);
             result.add(root.val);
