@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/LC098_ValidateBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/LC226_InvertBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/LC104_BinaryTreeMaxDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/LC111_BinaryTreeMinDepth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deecyn/tree/LC094_BinaryTreeInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/tree/LC094_BinaryTreeInorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deecyn/tree/structure/BinaryTreeNode.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +234,8 @@
       <workItem from="1598543098696" duration="2921000" />
       <workItem from="1598678640869" duration="5976000" />
       <workItem from="1598715715872" duration="132000" />
-      <workItem from="1598754971874" duration="3355000" />
+      <workItem from="1598754971874" duration="3622000" />
+      <workItem from="1598843251591" duration="1507000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583070709598</created>
@@ -505,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598715756418</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="update.">
+      <created>1598758829674</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1598758829674</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,11 +561,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1598756664165" />
-    <state x="15" y="61" key="CommitChangelistDialog2" timestamp="1598715755982">
+    <state x="258" y="54" width="934" height="685" key="CommitChangelistDialog2" timestamp="1598758829348">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="518" y="61" key="CommitChangelistDialog2/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1596725457058" />
-    <state x="15" y="61" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1598715755982" />
+    <state x="258" y="54" width="934" height="685" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1598758829348" />
     <state width="1398" height="384" key="GridCell.Tab.0.bottom" timestamp="1597116525236">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -603,11 +608,11 @@
     </state>
     <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.820@0.0.1440.820" timestamp="1593093910993" />
     <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1598757099957" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1598715759996">
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1598758843219">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="178" key="Vcs.Push.Dialog.v2/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1596725464015" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1598715759996" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1598758843219" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1596717165002">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
