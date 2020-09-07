@@ -10,6 +10,7 @@ import java.util.LinkedList;
  */
 public class Test {
 
+
     public int binarySearch (int[] array, int low, int high, int target) {
         // write code here
         while (low <= high) {

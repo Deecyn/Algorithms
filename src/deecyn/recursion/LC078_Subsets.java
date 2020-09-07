@@ -15,7 +15,8 @@ public class LC078_Subsets {
 
     List<List<Integer>> results = new ArrayList<>();
     public List<List<Integer>> subsets(int[] nums) {
-        backtrack(nums, 0, new ArrayList<>());
+//        backtrack(nums, 0, new ArrayList<>());
+        backtrack(nums, 0, new ArrayList<>(), results);
         return results;
     }
 
@@ -32,5 +33,15 @@ public class LC078_Subsets {
         backtrack(nums, idx + 1, tempList);
 
         tempList.remove(tempList.size() - 1);
+    }
+
+    private void backtrack(int[] nums, int idx, List<Integer> tempList, List<List<Integer>> results) {
+        results.add(new ArrayList<>(tempList));
+
+        for (int i = idx; i < nums.length; i++) {
+            tempList.add(nums[i]);
+            backtrack(nums, i + 1, tempList, results);
+            tempList.remove(tempList.size() - 1);
+        }
     }
 }
