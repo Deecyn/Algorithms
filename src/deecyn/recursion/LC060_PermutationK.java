@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * @author Deecyn
  * @version 0.1
- * Description:
+ * Description: LeetCode 60.第k个排列
  */
 public class LC060_PermutationK {
 

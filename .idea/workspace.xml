@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="547e23a5-50e3-42cc-b18d-c93ab03f906c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/deecyn/recursion/LC060_PermutationK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/LC107_BinaryTreeLevelOrderTraversal_ii.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deecyn/tree/LC257_BinaryTreePaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/Main01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/Main02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/Main03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/ConstructString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/LineTower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/SJB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ConstructTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Convert36To10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/deecyn/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deecyn/recursion/LC078_Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/recursion/LC078_Subsets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deecyn/recursion/LC046_Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/recursion/LC046_Permutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deecyn/recursion/LC060_PermutationK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deecyn/recursion/LC060_PermutationK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +51,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/datastructure" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -69,13 +64,26 @@
       <recent name="$PROJECT_DIR$/src/leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LineTower">
-    <configuration name="ConstructString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.ConstructString" />
+  <component name="RunManager" selected="Application.LC046_Permutations">
+    <configuration name="Convert36To10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Convert36To10" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC046_Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deecyn.recursion.LC046_Permutations" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="deecyn.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.Main01" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,25 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.Main02" />
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Main1" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.Main03" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC046_Permutations" />
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Convert36To10" />
         <item itemvalue="Application.LineTower" />
-        <item itemvalue="Application.ConstructString" />
-        <item itemvalue="Application.Main03" />
-        <item itemvalue="Application.Main02" />
-        <item itemvalue="Application.Main01" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +248,17 @@
       <workItem from="1598953508304" duration="8883000" />
       <workItem from="1599101128476" duration="19535000" />
       <workItem from="1599393779047" duration="4810000" />
-      <workItem from="1599462378872" duration="5185000" />
+      <workItem from="1599462378872" duration="5457000" />
+      <workItem from="1599648826028" duration="1958000" />
+      <workItem from="1599734265850" duration="3975000" />
+      <workItem from="1600082346084" duration="213000" />
+      <workItem from="1600082652783" duration="2518000" />
+      <workItem from="1600148850497" duration="181000" />
+      <workItem from="1600340150790" duration="4666000" />
+      <workItem from="1600423210826" duration="190000" />
+      <workItem from="1600605652067" duration="909000" />
+      <workItem from="1600867888414" duration="443000" />
+      <workItem from="1600950703016" duration="2780000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583070709598</created>
@@ -542,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599193201446</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="update">
+      <created>1599484780312</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1599484780312</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,14 +602,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1598846918493" />
-    <state x="320" y="115" key="#Notifications" timestamp="1599313601796">
+    <state x="320" y="115" key="#Notifications" timestamp="1600082582264">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="115" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1599313601796" />
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1599394490912">
+    <state x="320" y="115" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1600082582264" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1600345900425">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1599394490912" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1600345900425" />
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598756664165">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -606,58 +618,58 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="969" y="224" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1599468331044" />
-    <state x="258" y="54" width="934" height="685" key="CommitChangelistDialog2" timestamp="1599193201113">
+    <state x="258" y="54" width="934" height="685" key="CommitChangelistDialog2" timestamp="1599484780103">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="518" y="61" key="CommitChangelistDialog2/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1596725457058" />
-    <state x="258" y="54" width="934" height="685" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1599193201113" />
-    <state width="1398" height="253" key="GridCell.Tab.0.bottom" timestamp="1599468607489">
+    <state x="258" y="54" width="934" height="685" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1599484780103" />
+    <state width="1398" height="126" key="GridCell.Tab.0.bottom" timestamp="1600954920735">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="253" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599468607489" />
-    <state width="1398" height="253" key="GridCell.Tab.0.center" timestamp="1599468607488">
+    <state width="1398" height="126" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600954920735" />
+    <state width="1398" height="126" key="GridCell.Tab.0.center" timestamp="1600954920734">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="253" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1599468607488" />
-    <state width="1398" height="253" key="GridCell.Tab.0.left" timestamp="1599468607487">
+    <state width="1398" height="126" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600954920734" />
+    <state width="1398" height="126" key="GridCell.Tab.0.left" timestamp="1600954920732">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="253" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1599468607487" />
-    <state width="1398" height="253" key="GridCell.Tab.0.right" timestamp="1599468607489">
+    <state width="1398" height="126" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600954920732" />
+    <state width="1398" height="126" key="GridCell.Tab.0.right" timestamp="1600954920735">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="253" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1599468607489" />
-    <state width="1398" height="337" key="GridCell.Tab.1.bottom" timestamp="1599468377313">
+    <state width="1398" height="126" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600954920735" />
+    <state width="1398" height="337" key="GridCell.Tab.1.bottom" timestamp="1600404282731">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="337" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599468377313" />
-    <state width="1398" height="337" key="GridCell.Tab.1.center" timestamp="1599468377312">
+    <state width="1398" height="337" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600404282731" />
+    <state width="1398" height="337" key="GridCell.Tab.1.center" timestamp="1600404282730">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="337" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1599468377312" />
-    <state width="1398" height="337" key="GridCell.Tab.1.left" timestamp="1599468377312">
+    <state width="1398" height="337" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1600404282730" />
+    <state width="1398" height="337" key="GridCell.Tab.1.left" timestamp="1600404282730">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="337" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1599468377312" />
-    <state width="1398" height="337" key="GridCell.Tab.1.right" timestamp="1599468377312">
+    <state width="1398" height="337" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1600404282730" />
+    <state width="1398" height="337" key="GridCell.Tab.1.right" timestamp="1600404282731">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="337" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1599468377312" />
-    <state x="317" y="70" width="900" height="722" key="SettingsEditor" timestamp="1599011239278">
+    <state width="1398" height="337" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1600404282731" />
+    <state x="317" y="70" width="900" height="722" key="SettingsEditor" timestamp="1600082694085">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="236" y="73" key="SettingsEditor/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1596716755446" />
-    <state x="317" y="70" width="900" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1599011239278" />
-    <state x="450" y="200" width="540" height="524" key="StructurePopup" timestamp="1599397955916">
+    <state x="317" y="70" width="900" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600082694085" />
+    <state x="450" y="200" width="540" height="524" key="StructurePopup" timestamp="1599798132775">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.820@0.0.1440.820" timestamp="1593093910993" />
-    <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1599397955916" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1599193203290">
+    <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1599798132775" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1599484784799">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="178" key="Vcs.Push.Dialog.v2/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1596725464015" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1599193203290" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1599484784799" />
     <state x="458" y="220" key="extract.method.dialog" timestamp="1599394776670">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -666,7 +678,6 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1596717165002" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1591630795728" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

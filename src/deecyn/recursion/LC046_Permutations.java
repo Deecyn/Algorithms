@@ -11,29 +11,34 @@ import java.util.List;
  */
 public class LC046_Permutations {
 
-
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> results = new ArrayList<>();
-        backtrack(nums, new int[nums.length], new ArrayList<>(), results);
+        backtrack(nums, new boolean[nums.length], new ArrayList<>(), results);
         return results;
     }
 
-    private void backtrack(int[] nums, int[] visited, List<Integer> tempList, List<List<Integer>> results) {
-        if (tempList.size() == nums.length) {
-            results.add(new ArrayList<>(tempList));
+    private void backtrack(int[] nums, boolean[] visited, List<Integer> pathList, List<List<Integer>> results) {
+        if (pathList.size() == nums.length) {
+            results.add(new ArrayList<>(pathList));
             return;
         }
 
         for (int i = 0; i < nums.length; i++) {
-            if (visited[i] == 1) continue;
+            if (visited[i]) continue;
 
-            visited[i] = 1;
-            tempList.add(nums[i]);
-            backtrack(nums, visited, tempList, results);
+            visited[i] = true;
+            pathList.add(nums[i]);
+//            System.out.println("  递归之前 => " + pathList);
+            backtrack(nums, visited, pathList, results);
 
-            visited[i] = 0;
-            tempList.remove(tempList.size() - 1);
+            visited[i] = false;
+            pathList.remove(pathList.size() - 1);
+//            System.out.println("递归回退之后 => " + pathList);
         }
+    }
+
+    public static void main(String[] args) {
+//        System.out.println(permute(new int[]{1, 2, 3}));
     }
 
 }
