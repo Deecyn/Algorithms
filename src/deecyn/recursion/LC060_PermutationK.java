@@ -1,6 +1,7 @@
 package deecyn.recursion;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -10,41 +11,51 @@ import java.util.List;
  */
 public class LC060_PermutationK {
 
-    String resultStr = "";
     public String getPermutation(int n, int k) {
-        backtrack(n, k, new int[n], new ArrayList<>(), new ArrayList<>(new ArrayList<>()));
-        return resultStr;
+        int[] factorials = calculateFactorial(n);
+
+        // 查找全排列需要的布尔数组
+        boolean[] used = new boolean[n + 1];
+        Arrays.fill(used, false);
+
+        StringBuilder path = new StringBuilder();
+        dfs(n, k, factorials,used,0, path);
+        return path.toString();
     }
 
-    private void backtrack(int n, int k, int[] visited, List<Integer> tempList, List<List<Integer>> resultList) {
-        if (resultList.size() == k) {
-            resultStr = listToString(resultList.get(resultList.size() - 1));
-        }
-
-        if (tempList.size() == n) {
-            resultList.add(new ArrayList<>(tempList));
+    private void dfs(int n, int k, int[] factorials, boolean[] used, int index, StringBuilder path) {
+        if (index == n){
             return;
         }
 
-        for (int i = 0; i < n; i++) {
-            if (visited[i] == 1) {
+        // 计算还未确定的数字的全排列的个数，第 1 次进入的时候是 n - 1
+        int remainAmount = factorials[n - 1 - index];
+        for (int i = 1; i <= n; i++) {
+            if (used[i]) {
                 continue;
             }
-
-            visited[i] = 1;
-            tempList.add(i);
-            backtrack(n, k, visited, tempList, resultList);
-            visited[i] = 0;
-            tempList.remove(tempList.size() - 1);
+            if (remainAmount < k) {
+                k -= remainAmount;
+                continue;
+            }
+            path.append(i);
+            used[i] = true;
+            dfs(n, k, factorials, used, index + 1, path);
+            // 注意 1：不可以回溯（重置变量），算法设计是「一下子来到叶子结点」，没有回头的过程
+            // 注意 2：这里要加 return，后面的数没有必要遍历去尝试了
+            return;
         }
+
     }
 
-    private String listToString(List<Integer> list) {
-        StringBuilder sb = new StringBuilder();
-        for (Integer i : list) {
-            sb.append(i);
+    /**  计算阶乘数组  */
+    private int[] calculateFactorial(int n){
+        int[] factorials = new int[n + 1];
+        factorials[0] = 1;
+        for (int i = 1; i <= n; i++) {
+            factorials[i] = factorials[i-1] * i;
         }
-        return sb.toString();
+        return factorials;
     }
 
 }
